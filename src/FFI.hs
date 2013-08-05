@@ -1,6 +1,6 @@
 {-# LANGUAGE NoImplicitPrelude #-}
 module FFI
-  (module Language.Fay.FFI)
+  (module Fay.FFI)
   where
 
-import Language.Fay.FFI
+import Fay.FFI
