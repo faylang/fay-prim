@@ -5,7 +5,7 @@ description:         A minimal base package for Fay, useful for testing Fay itse
 license:             BSD3
 license-file:        LICENSE
 author:              Adam Bergmark, Chris Done
-maintainer:          adam@edea.se
+maintainer:          adam@bergmark.nl
 homepage:            https://github.com/faylang/fay-prim
 bug-reports:         https://github.com/faylang/fay-prim/issues
 copyright:           2012 Adam Bergmark, Chris Done

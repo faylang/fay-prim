@@ -4,7 +4,7 @@
 {-# LANGUAGE FlexibleInstances #-}
 {-# OPTIONS -w #-}
 
-module Prelude where
+module Prelude (print, Base.Int) where
 
 import                  Fay.Types (Fay)
 import                  Fay.FFI
@@ -43,7 +43,7 @@ instance Base.Show a => Base.Show (Maybe a)
 (>>=) = ffi "Fay$$bind(%1)(%2)"
 
 -- | Monomorphic then for Fay.
-(>>) :: Fay a -> Fay b -> Fay b
+(>>) :: Ptr (Fay a) -> Ptr (Fay b) -> Ptr (Fay b)
 (>>) = ffi "Fay$$then(%1)(%2)"
 
 -- | Monomorphic return for Fay.
